@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+}
+
+
+#canvas {
+  display: inline-block; 
+  border: 10px black solid;
+}
+
+#wrapper {
+  text-align: center;
+
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+
+  max-width: 600px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+}
+
+#fps {
+  text-align: right;
+}
+
+#tryAgain {
+  display:block;
+
+  margin: 10px auto;
+
+  height: 40px;
+}
